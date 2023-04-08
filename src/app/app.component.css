@@ -1,4 +1,10 @@
 .div{
     text-align: center;
     font-size: x-large;
+    align-content:center;
+
+}
+.img{
+    text-align: center;
+    display: block;
 }
