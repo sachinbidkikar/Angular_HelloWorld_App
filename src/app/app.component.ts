@@ -7,9 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello World';
-  imgurl="https://www.bridgelabz.com/assets/header/BL_logo_index.png"
+  url="https://www.bridgelabz.com/"
+  imgurl="../assets/icon.png"
 
   ngOnInit(): void {
     this.title = "Hello From BL";
   }
+
+  onClick($event:any){
+    console.log("Button is Clicked",$event);
+    window.open(this.url,"_blank");
+  }
+
 }
