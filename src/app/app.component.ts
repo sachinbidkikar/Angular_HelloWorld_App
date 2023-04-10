@@ -9,9 +9,10 @@ export class AppComponent {
   title = 'Hello World';
   url="https://www.bridgelabz.com/"
   imgurl="../assets/icon.png"
+  name:String = ""
 
   ngOnInit(): void {
-    this.title = "Hello From BL";
+    this.title = "Welcome !!";
   }
 
   onClick($event:any){

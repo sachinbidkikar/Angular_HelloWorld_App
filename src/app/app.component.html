@@ -1,7 +1,13 @@
 <div >
-  <h1>{{this.title}}</h1>
+  <h4>Hello {{name}} Welcome to App</h4>
   <img [src] = "imgurl" (click)= "onClick($event)"
   />
+</div>
+
+<div> 
+  <label for="input">Name: </label>
+  <input [(ngModel)]="name">
+  <br>
 </div>
 
 <router-outlet> </router-outlet>
