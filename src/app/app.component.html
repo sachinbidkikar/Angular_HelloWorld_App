@@ -4,10 +4,19 @@
   />
 </div>
 
-<div> 
+<!-- UC4 -->
+<!-- <div> 
   <label for="input">Name: </label>
   <input [(ngModel)]="name">
   <br>
+</div> -->
+
+<div>
+  <label for="input">Name: </label>
+  <input (input)="onInput($event)" [(ngModel)]="name">
+<span class="error-output">{{this.errorName}}</span>
+  <br>
 </div>
+
 
 <router-outlet> </router-outlet>

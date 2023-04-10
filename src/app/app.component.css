@@ -1,10 +1,14 @@
 .div{
     text-align: center;
     font-size: x-large;
-    align-content:center;
-
+    align-content:center;   
 }
 .img{
     text-align: center;
     display: block;
+    margin: auto;
+}
+
+.error-output{
+color: red;
 }
